@@ -1,0 +1,18 @@
+<h1>Double Bars Chart</h1>
+<hr>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <app-graphic-bar [barChartDataChild]="productoData"
+                         [barChartLabelsChild]="proveedoresLabels"
+                         [horizontal]="true">
+        </app-graphic-bar>>
+    </div>
+    <div class="col-md-6">
+        <app-graphic-bar [barChartDataChild]="proveedoresData"
+                         [barChartLabelsChild]="proveedoresLabels">
+        </app-graphic-bar>
+    </div>
+
+</div>
